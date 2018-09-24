@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 
 public class MetodosDefault {
 	public static void main(String[] args) {
-		List<String> palavras = Arrays.asList("Paralelelepipido","Guilherme", "Thiago");
+		List<String> palavras = Arrays.asList("Paralelepipido","Guilherme", "Thiago");
 		
 		Consumer<String> consumidor = new ImprimePalavras();
 		palavras.forEach(consumidor);
